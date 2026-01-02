@@ -3,9 +3,9 @@ layout: home
 title: Home
 ---
 
-# Hi, I’m Your Name 👋
+# Hi, I’m Afonso Vale 👋
 
-I write about building software: **shipping small projects**, **debugging**, and **keeping things simple**.
+I write about boring stuff.
 
 ## Start here
 - **[About](/about/):** what I do + how I think
