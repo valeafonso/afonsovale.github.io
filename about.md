@@ -16,6 +16,6 @@ I’m a developer who likes **clean interfaces**, **small tools**, and **systems
 - Make feedback loops fast (tests, logs, prototypes)
 
 ### Contact
-- GitHub: https://github.com/YOUR-USER
-- Email: you@example.com
+- GitHub: https://github.com/valeafonso
+- Email: a.vale@apo.pt
 
