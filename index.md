@@ -1,18 +1,27 @@
 ---
-layout: home
-title: Home
+layout: default
 ---
 
-# Hi, I’m Afonso Vale 👋
+# Hi, I’m Afonso 👋
 
-I write about boring stuff.
+I write about software engineering, experiments, and what I’m learning.
 
-## Start here
-- **[About](/about/):** what I do + how I think
-- **[Projects](/projects/):** things I’ve built (with notes)
-- **[Uses](/uses/):** tools I like
-- **[Subscribe](/subscribe/):** RSS + updates
+<div class="callouts">
+  <p><strong>Start here:</strong> <a href="{{ '/about/' | relative_url }}">About</a> · <a href="{{ '/projects/' | relative_url }}">Projects</a> · <a href="{{ '/uses/' | relative_url }}">Uses</a> · <a href="{{ '/subscribe/' | relative_url }}">Subscribe</a></p>
+</div>
 
-## Featured posts
-- Coming soon: a few posts I’m proud of.
+## Latest posts
+
+<ul class="postlist">
+  {% for post in site.posts limit:5 %}
+    <li class="postlist__item">
+      <a class="postlist__title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <div class="postlist__meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+      <div class="postlist__excerpt">{{ post.excerpt }}</div>
+    </li>
+  {% endfor %}
+</ul>
+
+<p><a href="{{ '/blog/' | relative_url }}">→ All posts</a></p>
+
 
